@@ -87,4 +87,15 @@ public class Logger {
 		return id;
 	}
 
+	@Override
+	public String toString() {
+		return "Logger{" +
+				"id=" + id +
+				", clientId=" + clientId +
+				", clientType='" + clientType + '\'' +
+				", executionDate=" + executionDate +
+				", description='" + description + '\'' +
+				", amount=" + amount +
+				'}';
+	}
 }
